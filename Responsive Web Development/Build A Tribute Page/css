@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  font-family:Georgia;
+}
+
+#image {
+  display:block;
+  max-width:100%;
+  height:auto;
+  justify-content:center;
+}
+
+#img-div {
+  max-width:1000px;
+}
+#div-tribute-info{
+  display:block;
+  max-width:1000;
+  height:auto;
+  color:black;
+  border:solid grey;
+  padding:50;
+  margin-top:60;
+}
+
+#footer-div {
+  display:block;
+  background-color:white;
+}
+
+#img-caption{
+  font-size: 20;
+  text-align: center;
+  max-width:100%;
+  margin:10 auto 10 40;
+  position: absolute;
+  
+}
+
+#timeline {
+  text-align:center;
+  font-size:30;
+}
+  
+#title {
+  text-align:center;
+  position: absolute;
+  padding-left:200;
+  color:white;
+}
+
+#source {
+  padding-left:100;
+  padding-top:30;
+}
+#footer-div {
+  display: block;
+  padding-left:32%;
+  
+}
+
+#address2 {
+  padding-left:50;
+}
+
