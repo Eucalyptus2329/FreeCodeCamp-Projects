@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <link rel='stylesheet' href='styles.css' />
+  </head>
+   <nav id='navbar'>
+      <header>.Net Development
+      </header>
+      <hr class='divider'>
+      <div id='nav-bar'>
+          <a class='nav-link' href='#Introduction_to_.Net_Development'>Introduction to .Net Development 
+          </a>
+      </div>
+      <hr class='divider'>
+      <div id='nav-bar'>
+          <a class='nav-link' href='#Features'>Features
+          </a>
+      </div>
+      <hr class='divider'>
+      <div id='nav-bar'>
+          <a class='nav-link' href='#Using_.Net'>Using .NET
+          </a>
+      </div>
+      <hr class='divider'>
+      <div id='nav-bar'>
+          <a class='nav-link' href='#Languages'>Languages
+          </a>
+      </div>
+      <hr class='divider'>
+      <div id='nav-bar'>
+          <a class='nav-link' href='#Tools'>Tools
+          </a>
+      </div>
+      <hr class='divider'>
+      <div id='nav-bar'>
+          <a class='nav-link' href='#Reference'>Reference
+          </a>
+      </div>
+    </nav>
+    <section class='navigation'>
+     <p id='author'>Made by Eulix Chiu &copy 2022</p>
+     <img src='https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_large.svg'>
+    </section>  
+  <main id='main-doc'>
+    <section class='main-section' id='Introduction_to_.Net_Development'>
+      <header>Introduction to .Net Development
+      </header>
+      <p id='p'>.NET is a free, cross-platform, open source developer platform for building many kinds of applications.</br> .NET is built on a high-performance runtime that is used in production by many high-scale apps.</p>
+    </section>
+    <section class='main-section' id='Features'>
+      <header>Features
+      </header>
+      <p id='p'>.NET features allow developers to productively write reliable and performant code.</p>
+        <ul id='features_list'>
+          <li>Asynchronous code</li>
+          <li>Attributes</li>
+          <li>Reflection</li>
+          <li>Code analyzers</li>
+          <li>Delegates and lambdas</li>
+          <li>Events</li>
+          <li>Exceptions</li>
+          <li>Garbage collection</li>
+          <li>Generic types</li>
+          <li>LINQ (Language Integrated Query)</li>
+          <li>Parallel programming</li>
+          <li>Type inference - C#, F#, Visual Basic</li>
+          <li>Type system</li>
+          <li>Unsafe code
+            <ul>
+              <li id='lol'>Unsafe Code may look like the following:
+                  <ul>
+                    <li><code>Pointer Type Declaration </br>C#<br>type* identifier;
+void* identifier; //allowed but not recommended</code></li>
+                    <li><code>Fixed-size buffers<br>C#<br>Private Fixed Char Name[30];</code></li>
+                  </ul>
+              </li>
+            </ul>
+          </li>
+    </section>
+    <section class='main-section' id='Using_.Net'>
+      <header>Using .NET
+      </header>
+        <p id='.net'>.NET apps and libraries are built from source code and a project file, using the .NET CLI or an Integrated Development Environment (IDE) like Visual Studio.<br><br>The following example is a minimal .NET app:<br><br>Source code:
+        </p>
+        <code id='.net_code'>C#<br>Console.WriteLine("Hello, World!"); 
+        </code>
+        <br><p id='.net'>The app can be built and run with the .NET CLI:</p>
+        <code id='.net_code'>Bash <br> % dotnet run <br> Hello, World!
+        </code>
+        <p id='.net'> It can also be built and run as two separate steps. The following example is for an app that is named app:</p>
+        <code id='.net-code'>Bash<br>% dotnet build <br>% ./bin/Debug/net6.0/app 
+<br>Hello, World!
+        </code>
+     </section>
+    <br>
+    <section class='main-section' id='Languages'>
+      <header>Languages
+      </header>
+      <p id='language-text'>The runtime is designed to support multiple programming languages. C#, F#, and Visual Basic languages are supported by Microsoft and are designed in collaboration with the community</p>
+      <ul id='language-list'>
+        <li>C# is a modern, object-oriented, and type-safe programming language. It has its roots in the C family of languages and will be immediately familiar to C, C++, Java, and JavaScript programmers</li>
+        <li>F# is an interoperable programming language for writing succinct, robust, and performant code. F# programming is data-oriented, where code involves transforming data with functions</li>
+        <li>Visual Basic uses a more verbose syntax that is closer to ordinary human language. It can be an easier language to learn for people new to programming</li>
+    </section>
+    <section class='main-section' id='Tools'>
+      <header>Tools
+      </header>
+      <p id='tool-text'>The .NET SDK is a set of libraries and tools for developing and running .NET applications. It includes the MSBuild build engine, the Roslyn (C# and Visual Basic) compiler, and the F# compiler. Most commands are run by using the dotnet command. The CLI tools can be used for local development and continuous integration.</p>
+      <p id='tool-text'>The Visual Studio family of IDEs offer excellent support for .NET and the C#, F#, and Visual Basic languages.</p>
+      <p id='tool-text'>GitHub Codespaces and GitHub security features support .NET.</p>
+    </section>
+    <section class='main-section' id='Reference'>
+      <header>Reference
+      </header>
+        <p id='reference-text'> The following information is sourced from <a id='link' target='_blank' href='https://docs.microsoft.com/en-us/dotnet/core/introduction'> Microsoft .NET</a>.
+        </p>
+    </section>
+  </main> 
+</html>
